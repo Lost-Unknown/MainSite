@@ -15,32 +15,40 @@ const AboveIt = () => {
         />
         <div className="flex flex-col justify-start items-start">
           <p className="lilita-font text-white text-outline-b2 text-8xl pb-4">Above It : Get the MILK</p>
-          <p className="lilita-font text-white text-outline-b2 text-3xl">Short Description</p>
-          <Link className='pt-4 w-96 h-32 z-10' href='https://play.google.com/store/apps/details?id=com.LostGamesltd.HeavyTrafficRacer'><Image
+          <p className="lilita-font text-white text-outline-b2 text-3xl">Are You Ready To Get Some MILK!</p>
+          <Link className='pt-4 w-96 h-32 z-10' href='https://play.google.com/store/apps/details?id=com.LostD.AboveIt'><Image
           src='/assets/google.png'
           width={400}
           height={200}
           className='lg:w-full w-52 h-16 lg:h-full aspect-auto'/></Link>
         </div>
       </div>
-      <p className="lilita-font text-white text-outline-b1 text-xl">Detailed Description</p>
+      <p className="lilita-font text-white text-outline-b1 text-xl">Game is currently in BETA and is not fully developed .
+Player might encounter bugs and glitches so please provide feedback about it</p>
       <Carousel className="rounded-xl p-0 w-full carousel-height">
       <Image
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+        src="https://play-lh.googleusercontent.com/PdCuQVoM40tKA7HigFs3xEpTxP89hqhREVUzqar2gWPm7L_yNyTvv5Zgp6cnCS1Siw=w2560-h1440-rw"
         alt="image 1"
         width={1000}
         height={700}
         className=" w-full h-full"
       />
       <Image
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+        src="https://play-lh.googleusercontent.com/xA2G0RhS1aKTp2qiMf6Ci1MzJp1g8UlJn9RTzwJK4th2viGEt_72WprzWMP9kXlN=w2560-h1440-rw"
         alt="image 2"
         width={1000}
         height={700}
         className=" w-full h-full"
       />
       <Image
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+        src="https://play-lh.googleusercontent.com/6LuVqy4JEBfTrd4fenIoMvUCso169e3IP0XQoLk8VVeIdc4yO_74lGaXgiR-GdrmCZYH=w2560-h1440-rw"
+        alt="image 3"
+        width={1000}
+        height={700}
+        className=" w-full h-full"
+      />
+      <Image
+        src="https://play-lh.googleusercontent.com/j0D8JLHSK1YIhifyCFPTgUtp_nZl2JNpLlybhTnnxfTp6Smvp8bIvFTUMuAe5-NXjpyd=w2560-h1440-rw"
         alt="image 3"
         width={1000}
         height={700}
